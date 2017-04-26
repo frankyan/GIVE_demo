@@ -94,7 +94,7 @@ Here we will demonstrate an example of using GIVE with the MySQL data source on 
 ***
 
 *__Note:__ If you are using the MariaDB instance on demo.give.genemo.org, your MariaDB account will not have the privilege to do the steps in this section. If you try any commands listed here, you will receive a message from MariaDB saying the operation is denied.  
-These steps are automatically done for you after you requested for a database username, password, and database name. Therefore, __please skip this section entirely.__*
+These steps are automatically done for you after you requested for a database username, password, and database name. Therefore, __please skip this section entirely,__ and go to "Preparation for reference genome".*  
 
 ***
 
