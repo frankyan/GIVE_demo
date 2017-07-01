@@ -19,10 +19,6 @@ GIVE uses [Web Components](https://www.webcomponents.org/), specifically [Polyme
 
 ## Table of Contents
 *   [Installation](#installation)
-    *   [Installing GIVE Web Components](#installing-give-web-components)
-    *   [Installing GIVE Server](#installing-give-server)
-        *   [Installing GIVE Bare-bone Server](#installing-give-bare-bone-server)
-        *   [Installing GIVE Data Sources](#installing-give-data-sources)
 *   [Usage](#usage)
     *   [Importing GIVE Components](#importing-give-components)
         *   [Without Installation](#without-installation)
@@ -38,15 +34,7 @@ GIVE uses [Web Components](https://www.webcomponents.org/), specifically [Polyme
 
 GIVE consists of two major parts: GIVE Web Components, the client-side codes running in browsers, implemented by HTML5; and GIVE server, including bare server codes, implemented by PHP, and data sources.
 
-To install any part of GIVE, a web-hosting environment is needed on your server.
-
-### Installing GIVE Web Components
-
-Just put the whole `/give/html` folder to your web server and you are good to go. Use the path on your hosting environment for the HTML `import`s to import the components in your page.
-
-### Installing GIVE Server
-
-Please see GIVE Manual [1. Installation](manuals/1-installation.md).
+To install any part of GIVE, a web-hosting environment is needed on your server. Please see GIVE Manual [1. Installation](manuals/1-installation.md) for installation guides.
 
 ## Usage
 
