@@ -6,10 +6,10 @@ GIVE uses [Web Components](https://www.webcomponents.org/), specifically [Polyme
 
 ```html
 <!-- Polyfill Web Components for browsers without native support -->
-<script src="https://beta.give.genemo.org/components/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<script src="https://give.genemo.org/components/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
 <!-- Import GIVE component -->
-<link rel="import" href="https://beta.give.genemo.org/components/bower_components/genemo-visual-components/chart-controller/chart-controller.html">
+<link rel="import" href="https://give.genemo.org/components/bower_components/genemo-visual-components/chart-controller/chart-controller.html">
 
 <!-- Embed the browser in your web page -->
 <chart-controller ref="mm10" title-text="My GIVE Browser"
@@ -45,23 +45,6 @@ To install any part of GIVE, a web-hosting environment is needed on your server.
 Just put the whole `/give/html` folder to your web server and you are good to go. Use the path on your hosting environment for the HTML `import`s to import the components in your page.
 
 ### Installing GIVE Server
-
-GIVE server consists of bare-bone server code, which serves as interfaces between GIVE Web Components and the data sources.
-
-#### Installing GIVE Bare-bone Server
-
-To install GIVE server, put `/give/html/givdata` and `/includes` under your hosting environment. PHP 7.0 or higher is required.
-
-After installation, please edit `/give/html/components/bower_components/genemo-data-components/basic-func/constants.js` to indicate the new bare-bone server location:
-```JavaScript
-give.host = '<bare-bone server path>'
-```
-Note that `bare-bone server path` is the path relative to the root path of your hosting environment. For example, if you host your web site at `/var/www/`, and bare-bone server is installed at `/var/www/give-server/`, then you'll need to edit `constants.js` as following:
-```JavaScript
-give.host = '/give-server'
-```
-
-#### Installing GIVE Data Sources
 
 Please see GIVE Manual [1. Installation](manuals/1-installation.md).
 
