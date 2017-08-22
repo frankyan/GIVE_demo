@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# != 2  ]; then
-    echo -e "Need 2 arguments:\n (1) a interaction file\n (2) output dir"
+    echo -e "Need 2 arguments:\n (1) an interaction file\n (2) output dir"
     exit 1
 fi
 name=`basename $1`;
